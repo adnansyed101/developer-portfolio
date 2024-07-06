@@ -1,21 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-*{
-    font-family: 'Open Sans', 'Times New Roman', Times, serif;
+* {
+  font-family: "Open Sans", "Times New Roman", Times, serif;
 }
 
 /* shared styles */
-.text-primary{
-    color: #FD6E01;
+.text-primary {
+  color: #fd6e01;
+}
+
+.dark-2 {
+  color: #474747;
+}
+
+.btn-primary {
+    background-color: #fd6e01;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 /* Nav Styles */
 nav {
   display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
 }
 
 .nav-title {
-    font-weight: 800;
-    font-size: 45px;
+  font-weight: 800;
+  font-size: 45px;
 }
 
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
